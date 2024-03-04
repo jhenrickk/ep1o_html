@@ -1,27 +1,52 @@
 :root{ 
-    --cor_titulo:rgb(240, 184, 184);
-    --cor_fundo:rgb(245, 236, 236);
-    --cor_button:rgb(216, 211, 211);
+    --cor_titulo:rgb(2, 2, 2);
+    --cor_fundo:#5063cf;
+    --cor_button:rgb(2, 2, 2);
 }
+
 body{
-    background-color: rgb(240, 184, 184);
+    background-color: rgb(38, 49, 85);
     background-color: var(--cor_fundo);
 }
-body:hover{
-    color: white;
-}
+
 section{
     text-align: center;
     height: 600px;
     margin: 40px;
-    border: solid rgb(250, 239, 239)
+    border: solid rgb(255, 255, 255) 5px;
 }
+
 h1{
     --cor_titulo: var(--cor_titulo);
     text-align: center;
 }
+
 button{
     padding: 9px;
     border-radius: 9px;
     margin: 24px;
+}
+
+.principal{
+    border: solid rgb(0, 0, 0) 2px;
+    text-align: center;
+    height: 300px;
+    width: 1815px;
+    border-radius: 00%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.botao{
+    height: 60px;
+    width: 300px;
+}
+
+.botao:first-child{
+    border-radius: 30% 0 0 0;
+}
+
+.botao:last-child{
+    border-radius: 0 30% 0 0;
 }
